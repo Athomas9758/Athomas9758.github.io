@@ -1,0 +1,111 @@
+body {
+    background-color: #ffb4ec;
+    color: #000000;
+    font-family: Tahoma, Verdana, sans-serif;
+  }
+  body {
+  margin: 0px;
+   margin-top:60px;
+}
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffb4ec;
+  color: white;
+  overflow: auto;
+  height: auto;
+}
+.left-links {
+  flex: 1 1 200px;
+}
+.links {
+  font-family: Tahoma;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.links:hover {
+  background-color: #fb84e3;
+}
+span {
+  color: #ffb5f0;
+}
+  h1 {
+    background-color: #fb84e3;
+    color: #E2FFFF;
+    line-height: 200%;
+    font-family: Georgia, "Tahoma", serif;
+    text-indent: 1em;
+  }
+
+  h2 {
+    background-color: #ffffff;
+    color: #f4c9db;
+    font-family: Georgia, "Tahoma", serif;
+    text-align: center;
+  }
+
+  nav {
+    font-weight: bold;
+    font-size: 1.25em;
+    word-spacing: 1em;
+  }
+
+  nav a {
+    text-decoration: none;
+  }
+
+  p {
+    font-size: .90em;
+    text-indent: 3em;
+  }
+
+  ul {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .feature {
+    color: #000000;
+  }
+
+  footer {
+    color: #333333;
+    font-size: .75em;
+    font-style: italic;
+  }
+
+  .company {
+    font-weight: bold;
+    font-family: Georgia, "Tahoma", serif;
+    font-size: 1.25em;
+  }
+
+  #dancers_in_class {
+    width: 650px;
+    float: left;
+  }
+
+  #dancers_on_stage {
+    width: 650px;
+    float: right;
+  }
+
+  #instagram {
+    width: 50px;
+    position: absolute;
+    bottom: 0
+  }
+
+  #facebook {
+    width: 50px;
+    position: absolute;
+    right: 660px;
+    bottom: 0;
+
+  }
